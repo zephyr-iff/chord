@@ -1,0 +1,14 @@
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap';
+
+@import 'navbar';
+@import 'typo';
+
+html {
+  font-size: 14px;
+}
+
+:root {
+  --black: #212529;
+}
