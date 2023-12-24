@@ -1,9 +1,9 @@
 {
-  "name": "chordpic",
-  "description": "create chord charts with ease",
+  "name": "chord",
+  "description": "create chord charts",
   "version": "1.0.0",
   "private": true,
-  "author": "Raphael Voellmy <r.voellmy@gmail.com>",
+  "author": "",
   "keywords": [
     "gatsby",
     "guitar",
@@ -20,6 +20,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "start": "run-p dev",
+    "build-gh": "rm -rf docs && rm -rf public && gatsby build --prefix-paths && cp -r public docs",
     "test": "run-s type-check test:jest",
     "test:jest": "jest",
     "type-check": "tsc"

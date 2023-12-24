@@ -61,7 +61,7 @@ const IndexPage = (props: { location: Location }) => {
   return (
     <IndexLayout location={props.location}>
       <h1>Guitar Chord Diagram Creator</h1>
-      <p>
+      {/* <p>
         It's never been easier to create guitar chord diagrams! Start by clicking anywhere on the{' '}
         <a href="#editor">
           <i>editor</i>
@@ -71,7 +71,7 @@ const IndexPage = (props: { location: Location }) => {
           <i>result</i>
         </a>{' '}
         fret board. Then <a href="#download">download</a> and <a href="#share">share</a> your chord diagram.
-      </p>
+      </p> */}
 
       <ChordForm onResetSettings={resetSettings} settings={chart.settings} onSettings={(settings) => setChart({ ...chart, settings })} />
 
@@ -110,12 +110,12 @@ const IndexPage = (props: { location: Location }) => {
         </ColCenterContent>
       </Row>
       <Row>
-        <Col md={6}>
+        <Col md={12}>
           <DownloadButtons chartRef={chartRef} size={size} title={chart.settings.title} />
         </Col>
-        <Col md={6}>
+        {/* <Col md={6}>
           <ShareButtons chart={chart} />
-        </Col>
+        </Col> */}
       </Row>
     </IndexLayout>
   )

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"i6+/":function(t,o,c){"use strict";c.r(o);c("q1tI");var e=c("Wbzz"),a=c("+ego"),n=c("qKvR");o.default=function(t){return Object(n.b)(a.a,{location:t.location},Object(n.b)("h1",null,"404: This page does not exist, sorry."),Object(n.b)("p",null,"Here's a random cat gif to cheer you up:"),Object(n.b)("img",{src:"https://cataas.com/cat/gif",alt:"Random Cat Gif"}),Object(n.b)("p",null,Object(n.b)(e.Link,{to:"/"},"Go back home")))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-18a3dbf0ea8514378192.js.map

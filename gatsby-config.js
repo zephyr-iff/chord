@@ -1,24 +1,23 @@
 'use strict'
 
 module.exports = {
+  pathPrefix: '/chord',
   siteMetadata: {
-    title: 'ChordPic | Easily Create Guitar Chord Charts',
-    description: 'Easily create guitar chords charts online for free.',
-    keywords: 'easy guitar chords svg png image export online free',
-    siteUrl: 'https://chordpic.com',
+    title: 'Chord',
+    description: '',
+    keywords: '',
+    siteUrl: 'https://lyokoo.github.io',
     author: {
-      name: 'Raphael Voellmy',
-      url: 'https://raphaelvoellmy.ch',
-      email: 'r.voellmy@gmail.com'
+      name: '',
+      url: '',
+      email: ''
     }
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          'UA-146422804-1' // Google Analytics / GA
-        ],
+        trackingIds: [],
         gtagConfig: {
           anonymize_ip: true
         },
@@ -63,7 +62,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://chordpic.com'
+        siteUrl: 'https://lyokoo.github.io'
       }
     },
     'gatsby-plugin-emotion',

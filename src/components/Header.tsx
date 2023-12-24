@@ -24,19 +24,19 @@ export const Header = (props: { location: Location }) => {
       <Navbar collapseOnSelect bg="light" expand="md">
         <BrandLink className="nav-link navbar-brand" to="/">
           <img alt="" src={logo} width="30" height="30" className="d-inline-block align-top mr-3" />
-          ChordPic
+          Chord
         </BrandLink>
         <NavbarToggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <span className="mr-auto" />
           <Nav>
-            {props.location?.pathname !== '/' && (
+            {/* {props.location?.pathname !== '/' && (
               <CallToActionLink className="btn btn-dark cta mr-0 mx-3" to="/">
                 Create Chord Diagram
               </CallToActionLink>
-            )}
+            )} */}
 
-            <Link className="nav-link" to="/news">
+            {/* <Link className="nav-link" to="/news">
               News
             </Link>
             <Link className="nav-link" to="/help">
@@ -44,7 +44,7 @@ export const Header = (props: { location: Location }) => {
             </Link>
             <Link className="nav-link" to="/about">
               About
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
