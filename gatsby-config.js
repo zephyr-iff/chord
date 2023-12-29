@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  pathPrefix: '/chord',
+  pathPrefix: '/',
   siteMetadata: {
     title: 'Chord',
     description: '',
