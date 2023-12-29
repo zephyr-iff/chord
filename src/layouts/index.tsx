@@ -40,7 +40,7 @@ const IndexLayout: React.FC<{ location: Location }> = ({ children, location }) =
           ]}
         >
           <html lang="en" />
-          <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet" />
+          {/* <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet" /> */}
         </Helmet>
         <Header location={location} />
         <LayoutMain>{children}</LayoutMain>
